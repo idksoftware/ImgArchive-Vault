@@ -11,4 +11,4 @@ ImgArchive uses the base Operating Systems file system in order to store images 
 
 [Design Documentation](./project.md)
 
-[Inital release](./Release/Setup/iasetup.exe)
+[Releases](https://github.com/idksoftware/ImgArchive-Vault/releases)
