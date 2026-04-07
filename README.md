@@ -1,4 +1,4 @@
-# ImgArchive CLI
+# ImgArchive Vault
 
 Can you find your digital images when you need them, or do you spent more time looking through endless folders on your hard drive? This can be even worse if you spent hours editing the image in Photoshop but can’t find the latest version.
 
