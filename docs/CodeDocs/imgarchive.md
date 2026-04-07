@@ -1,0 +1,91 @@
+ImgArchive Project                        {#mainpage}
+==================
+
+The Image archive provides an organised place to store images  
+This archive is designed to be simple in design and to use. It consists of archiving core that provides
+the basic archiving functions but in addition, takes input and provides output from optional external
+components to provide a tailored achieving solution and can be extended into a complete achieving system.
+
+Images are placed in a target Folder, where the images to be added in to the archive are placed prior to archiving.
+When the archiving process takes place These are then copied into the archive repository. The archive repository
+consists of a simple file hierarchy based on year, month, and day. These are created has required depending on date
+of the image.
+
+### Image Workflow
+
+The normal flow of an image taken on a Digital camera is first it is created on the camera’s sensor then transferred into
+the camera’s internal memory. The camera will carry out some internal processing (such as making a JPG of the image and
+adding EXIF data) then outputting the image into the cameras memory card in the form of one or more image files.
+
+This may be a RAW image, a RAW and JPG image or just a JPG image. These are the image files that the user will see as the
+final image from the camera. Almost all cameras will store its captured images in a folder called DCIM. DCIM stands for
+Digital Camera IMages and is the first or root folder the camera will create.  The next stage is to transfer this
+image files on to the computer that will be used to store the images on a more permanent bases in to the archive.
+
+The images on the camera make get on to the computer that contains the archive through a number of routes. The first may
+be removing the memory card from the camera and putting it into a reader on the computer or attaching the  camera to the
+commuter by plugging it in, or wirelessly connecting to it. In all most all cases the images will be seen to the
+computer as a folder of images.
+
+These images will be copied into the archive repository. This folder is the target folder. All folders within this folder
+will be searched for images. Within this copying stage the is another important stage of extracting the metadata and
+collecting it into a usefull form.
+
+Camera Generated Metadata
+
+When the camera captures an image it will store information on that image at the same time, this can be quite
+detailed. However most of the important details can be stored in a short set of data this will include the image
+size, is orientation, the date and time the image was take, the ISO, apratcer, exposure, if a flash was used and in some
+circumstances the GPS location. This information is in a standard called EXIF.
+
+ImgArchive will read the basic EXIF information. However it can also operate with other tools to provide a more detail set of
+EXIF date if required.
+
+This Metadata is then stored in a plan text file with the image.
+
+The basic data ImgArchive extracts.
+ 
+-	Camera Make/model
+-	Software
+-	Bits per sample
+-	Image width/Height
+-	Description
+-	Orientation
+-	Copyright
+-	Image date/time
+-	Original date/time
+-	Digitalised date/time
+-	Sub-second time
+-	Exposure Time
+-	F-stop
+-	ISO Speed
+-	Subject distance
+-	Exposure Bias
+-	Flash used
+-	Meter mode
+-	Lens focal length
+-	35mm focal length
+-	GPS latitude/longitude and altitude
+
+### ImgArchive Applications
+
+* [ImgArchive Admin Application](#imgarchive-admin-application-page)
+* [ImgArchive Vault Application](#isvault-application--page)
+
+### Static Libaries 
+
+* [Admin Libary](#admin-libary-page)
+* [Appbase Libary](#appdase-libary-page)
+* [Appbase Libary](#csv-libary-page)
+* [Database Libary](#database-libary-page)
+* [EXIF Command Line Libary](#exif-command-line-libary-page)
+* [Fountation Class Libary](#fountation-class-libary-page)
+                                                 
+### Dynamic link Libaries (dll)
+
+* [Admin dll](#admin-dynamic-link-libary-page)
+                         
+### Dev tools for ImgArchive
+
+[Dev tool for ImgArchive](#dev-tool-imgarchive)
+
