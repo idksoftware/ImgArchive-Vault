@@ -10,3 +10,5 @@ ImgArchive uses the base Operating Systems file system in order to store images 
 [User Documentation](./docs/UserDocs/welcome-to-imgarchive-wiki-documentation.md)
 
 [Design Documentation](./project.md)
+
+Inital release ./Release/Setup/iasetup.exe
