@@ -11,7 +11,17 @@ ImgArchive uses the base Operating Systems file system in order to store images 
 
 [Design Documentation](./project.md)
 
+# Downloads
+
 ## ImgArchive Vault packages
+This downloads of ImgArchive Vault is split into the full packge and component packages.
+
+### Full ImgArchive Vault package
+This is used to create a complete install of ImgArchive Vault. It is used when a fresh install is needed. For example a new install or an install after an un-install has been made.
+iasetup.exe
+
+## ImgArchive Vault component packages
+ImgArchive Vault is packaged so as new releases of components are made only the new package components needs to be installed on an existing installation of ImgArchive Vault. This prevents unnecessary disruption is an installation 
 
 ImgAchive consists of three main components. 
 - The core command line components.
@@ -22,7 +32,6 @@ In addition, ImgArchive Vault consists of two enviroments:
 - a core enviroment
 - a windows enviroment
 
-ImgArchive Vault is packaged so as new releases of components are made only the new package needs to be installed on an existing installation of ImgArchive Vault
 
 
 
