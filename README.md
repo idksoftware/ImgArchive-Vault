@@ -17,6 +17,7 @@ ImgAchive consists of three main components.
 - The core command line components.
 - The windows GUI components.
 - Windows Shell commponents
+
 In addition, ImgArchive Vault consists of two enviroments:
 - a core enviroment
 - a windows enviroment
