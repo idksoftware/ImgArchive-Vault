@@ -11,6 +11,18 @@ ImgArchive uses the base Operating Systems file system in order to store images 
 
 [Design Documentation](./project.md)
 
+## ImgArchive Vault packages
+
+ImgAchive consists of three main components. 
+- The core command line components.
+- The windows GUI components.
+- Windows Shell commponents
+In addition, ImgArchive Vault consists of two enviroments:
+- a core enviroment
+- a windows enviroment
+
+ImgArchive Vault is packaged so as new releases of components are made only the new package needs to be installed on an existing installation of ImgArchive Vault
+
 
 
 [Releases](https://github.com/idksoftware/ImgArchive-Vault/releases)
