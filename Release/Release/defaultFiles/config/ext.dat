@@ -1,0 +1,41 @@
+nef:Raw:nikon-raw:Nikon RAW
+nrw:Raw:nikon-raw:Nikon RAW
+dng:Raw:Adobe-raw:Adobe RAW
+raw:Raw:Panasonic-raw:Panasonic RAW
+raf:Raw:Fuji-raw:Fuji RAW
+orf:Raw:Olympus-raw:Olympus RAW
+srf:Raw:Sony-raw:Sony RAW
+sr2:Raw:Sony-raw:Sony RAW
+arw:Raw:Sony-raw:Sony RAW
+k25:Raw:Kodak-raw:Kodak RAW
+kdc:Raw:Kodak-raw:Kodak RAW
+dcr:Raw:Kodak-raw:Kodak RAW
+dcs:Raw:Kodak-raw:Kodak RAW
+drf:Raw:Kodak-raw:Kodak RAW
+mos:Raw:Leaf-raw:Leaf RAW
+pxn:Raw:Logitech -raw:Logitech RAW
+crw:Raw:Canon-raw:Canon RAW
+cr2:Raw:Canon-raw:Canon RAW
+mrw:Raw:Minolta-raw:Minolta RAW
+pef:Raw:Pentax-raw:Pentax RAW
+ptx:Raw:Pentax-raw:Pentax RAW
+mef:Raw:Mamiya-raw:Mamiya RAW
+3fr:Raw:Hasselblad-raw:Hasselblad RAW
+fff:Raw:Hasselblad-raw:Hasselblad RAW
+ari:Raw:Arriflex-raw:Arriflex RAW
+bay:Raw:Casio-raw:Casio RAW
+erf:Raw:Epsom -raw:Epsom RAW
+cap:Raw:PhaseOne-raw:Phase One RAW
+iiq:Raw:PhaseOne-raw:Phase One RAW
+eip:Raw:PhaseOne-raw:Phase One RAW
+rwl:Raw:Leica-raw:Leica RAW
+rwz:Raw:Rawzor-raw:Rawzor RAW
+srw:Raw:Samsung-raw:Samsung RAW
+x3f:Raw:Sigma-raw:Sigma RAW
+R3D:Raw:RED-raw:RED RAW
+jpg:Picture:jpg:JPG
+png:Picture:png:PNG
+bmp:Picture:bmp:bmp
+gif:Picture:gif:gif
+tif:Picture:tif:tif
+tiff:Picture:tiff:tiff
