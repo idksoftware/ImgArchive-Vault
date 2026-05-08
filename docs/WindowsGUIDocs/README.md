@@ -4,27 +4,24 @@ These applications provide a graphical interface between ImgArchive command line
 
 [iaabout application](./iaabout/README.md)
 
-[iatray application](./iatray/README.md)
+[iaadmin application](./iaadmin/README.md)
+
+[iachkin application](./iachkin/README.md)
+
+[iachkout application](./iachkout/README.md)
+
+[iadrvscan application](./iadrvscan/README.md)
+
+[iaexport application](./iaexport/README.md)
+
+[iaget application](./iaget/README.md)
 
 [iaimport application](./iaimport/README.md)
 
 [iaprop application](./iaprop/README.md)
 
-[images application
+[iascanner application](./iascanner/README.md)
 
-[iaexport application](./iaexport/README.md)
+[iatray application](./iatray/README.md)
 
-
-
-[iaabout application](./iaabout/README.md)
-[iaadmin application]()
-[iachkin application]()
-[iachkout application]()
-[iadrvscan application]()
-[iaexport application]()
-[iaget application]()
-[iaimport application]()
-[iaprop application]()
-[iascanner application]()
-[iatray application]()
-[iawizard application]()
+[iawizard application](./iawizard/README.md)
