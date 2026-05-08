@@ -49,7 +49,6 @@ The application will display:
 
 To check out multiple files, create a text file containing the list of files and use:
 
-````````
 
 The list file should contain one file path per line.
 
@@ -183,6 +182,5 @@ For issues or questions about iachkout:
 3. Review registry settings using **iaadmin**
 4. Consult the Image Archive user guide
 
----
 
 *Part of the Image Archive GUI application suite*
