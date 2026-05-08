@@ -24,7 +24,6 @@ iachkout integrates with Windows Explorer through shell extensions, allowing you
 
 ### Command Line Syntax
 
-````````
 ### Options
 
 | Option | Description |
@@ -37,7 +36,7 @@ iachkout integrates with Windows Explorer through shell extensions, allowing you
 
 To check out a single image:
 
-````````
+
 
 The application will display:
 - File name
@@ -50,7 +49,6 @@ The application will display:
 
 To check out multiple files, create a text file containing the list of files and use:
 
-````````
 
 The list file should contain one file path per line.
 
@@ -184,6 +182,5 @@ For issues or questions about iachkout:
 3. Review registry settings using **iaadmin**
 4. Consult the Image Archive user guide
 
----
 
 *Part of the Image Archive GUI application suite*
