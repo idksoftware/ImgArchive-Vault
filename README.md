@@ -28,7 +28,7 @@ ImgArchive Vault is packaged so as new releases of components are made only the 
 
 ImgAchive consists of three main components. 
 - The core command line components.
-- [The windows GUI components](.\docs\WindowsGUIDocs\README.md) .
+- [The windows GUI components](./docs/WindowsGUIDocs/README.md) .
 - Windows Shell commponents
 
 In addition, ImgArchive Vault consists of two enviroments:
