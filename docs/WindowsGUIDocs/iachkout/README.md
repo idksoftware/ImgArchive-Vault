@@ -36,7 +36,7 @@ iachkout integrates with Windows Explorer through shell extensions, allowing you
 
 To check out a single image:
 
-````````
+
 
 The application will display:
 - File name
