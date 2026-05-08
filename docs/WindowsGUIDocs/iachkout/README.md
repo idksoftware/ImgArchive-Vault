@@ -24,7 +24,6 @@ iachkout integrates with Windows Explorer through shell extensions, allowing you
 
 ### Command Line Syntax
 
-````````
 ### Options
 
 | Option | Description |
