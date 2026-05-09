@@ -1,105 +1,118 @@
-iaexport Application
+# iaexport Application
+
 This application enables the export of images from ImgArchive.
 
-iaexport User Guide
-Overview
-iaexport (Image Archive Export) is a Windows desktop application that enables the export and viewing of images from the ImgArchive system. It provides functionality to view image metadata, check checkout status, and manage exported images.
+# iaexport User Guide
 
-Purpose
+## Overview
+
+**iaexport** (Image Archive Export) is a Windows desktop application that enables the export and viewing of images from the ImgArchive system. It provides functionality to view image metadata, check checkout status, and manage exported images.
+
+## Purpose
+
 The iaexport application allows you to:
 
-View lists of images selected for export
-Access detailed properties and metadata for individual images
-View image preview and EXIF data
-Check the checkout/check-in status of images
-Review comprehensive image information including IPTC data, location, and camera settings
-System Requirements
-Windows operating system
-.NET 9 runtime
-Image Archive system installed and configured
-Appropriate permissions to access the Image Archive repository
-Installation
+- View lists of images selected for export
+- Access detailed properties and metadata for individual images
+- View image preview and EXIF data
+- Check the checkout/check-in status of images
+- Review comprehensive image information including IPTC data, location, and camera settings
+
+## System Requirements
+
+- Windows operating system
+- .NET 9 runtime
+- Image Archive system installed and configured
+- Appropriate permissions to access the Image Archive repository
+
+## Installation
+
 The application is installed as part of the Image Archive suite. Configuration settings are stored in the Windows Registry and include:
 
-Installation path
-Executable path
-User workspace path
-Temporary file path
-Usage
-Launching the Application
+- Installation path
+- Executable path
+- User workspace path
+- Temporary file path
+
+## Usage
+
+### Launching the Application
+
 You can launch iaexport in multiple ways:
 
-Single image file (view properties):
+1. **Single image file** (view properties):
+   - Right-click on an image file in Windows Explorer
+   - Select `Open with` -> `iaexport`
+   - The application will launch and display the image properties
 
-Right-click on an image file in Windows Explorer
-Select Open with → iaexport
-The application will launch and display the image properties
-Export list file (multiple images):
+2. **Export list file** (multiple images):
+   - Open iaexport application
+   - Select `File` -> `Open Export List`
+   - Browse to the export list file (.csv) and open it
+   - The application will load the list of images for export
 
-Open iaexport application
-Select File → Open Export List
-Browse to the export list file (.csv) and open it
-The application will load the list of images for export
-Viewing Image Properties
+### Viewing Image Properties
+
 To view image properties:
 
-Select an image from the list
+- Select an image from the list
+- The image properties will be displayed in the lower pane, including:
 
-The image properties will be displayed in the lower pane, including:
+   - File name
+   - File size
+   - Image dimensions
+   - Date taken
+   - Camera settings (aperture, shutter speed, ISO)
+   - Location (if available)
+   - IPTC data (caption, keywords, copyright)
 
-File name
-File size
-Image dimensions
-Date taken
-Camera settings (aperture, shutter speed, ISO)
-Location (if available)
-IPTC data (caption, keywords, copyright)
-Managing Exported Images
+### Managing Exported Images
+
 To manage exported images:
 
-Select an image from the list
+- Select an image from the list
+- Right-click to access the context menu
+- Choose an action:
 
-Right-click to access the context menu
+   - `Open containing folder` - opens the folder where the image is stored
+   - `Check out` - checks out the image for editing
+   - `Check in` - checks in the edited image
+   - `Remove from export list` - removes the image from the current export list
 
-Choose an action:
+### Command Line Arguments
 
-Open containing folder - opens the folder where the image is stored
-Check out - checks out the image for editing
-Check in - checks in the edited image
-Remove from export list - removes the image from the current export list
-Command Line Arguments
-One argument: Path to a single image metadata file (.xml or .lnk)
+- **One argument**: Path to a single image metadata file (`.xml` or `.lnk`)
+- Opens the **Properties Form** for that image
+- Displays comprehensive metadata and preview
 
-Opens the Properties Form for that image
+- **Two arguments**: `-f` flag followed by a file containing a list of images
+- Opens the **Export Form** with multiple images
+- Format: `-f <listfile.txt>`
 
-Displays comprehensive metadata and preview
+- **No arguments**: Opens empty export form (limited functionality)
 
-Two arguments: -f flag followed by a file containing a list of images
+## Main Features
 
-Opens the Export Form with multiple images
+### 1. Export Form (Multiple Images)
 
-Format: -f <listfile.txt>
-
-No arguments: Opens empty export form (limited functionality)
-
-Main Features
-1. Export Form (Multiple Images)
 When launched with a list file, the Export Form displays:
 
-Image List View:
+**Image List View**:
+- **Name**: Image filename
+- **Date Modified**: Last modification timestamp
+- **Type**: File extension/type
+- **Size**: File size in bytes
+- **Folder**: Directory path
 
-Name: Image filename
-Date Modified: Last modification timestamp
-Type: File extension/type
-Size: File size in bytes
-Folder: Directory path
-Available Actions:
+**Available Actions**:
+- **Properties**: View detailed propertiesfor selected image
+- **Import**: Import selected images (if applicable)
+- **Cancel**: Close the form
 
-Properties: View detailed propertiesfor selected image
-Import: Import selected images (if applicable)
-Cancel: Close the form
-List File Format: The export list file should contain one image path per line:
+**List File Format**:
+The export list file should contain one image path per line:
 
+````````markdown
 ### 2. Properties Form (Single Image)
 
 The Properties Form provides comprehensive image information organized in multiple tabs:
@@ -330,4 +343,4 @@ The EXIF Property Grid provides:
 
 ---
 
-*For more information about the Image Archive sys
+*For more information about the Image Archive system, including check-in/check-out workflows and archive administration, please refer to the main Image Archive documentation.*
