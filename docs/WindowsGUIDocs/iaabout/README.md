@@ -1,5 +1,5 @@
 # iaabout - Image Archive About Dialog
-
+[<<Back](../README.md)
 ## Overview
 The **iaabout** application is a standalone Windows Forms application that displays version, copyright, and product information for the ImgArchive system. It provides a simple, professional "About" dialog that shows details about the software.
 
