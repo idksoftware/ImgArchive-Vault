@@ -1,6 +1,6 @@
 # ImgArchive Windows graphical user interface
 # ImgArchive GUI - User Guide
-[<<Back](../..)
+[<<Back](../../README.md)
 ## Overview
 
 ImgArchive GUI is a comprehensive Windows-based image archiving solution built on .NET 9. The solution provides a suite of applications for managing, importing, organizing, and archiving image files with version control-like capabilities.
