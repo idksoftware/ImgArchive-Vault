@@ -1,0 +1,23 @@
+# Configuration file for ImgArchive
+[Derivative Archive]
+  BackupOneEnabled=False
+  BackupTwoEnabled=False
+[External Exif Tool]
+  ExternalExif=true
+[General]
+  AutoCheckoutOn=False
+  PicturesOn=True
+  Quiet=False
+  Silent=False
+  WWWOn=True
+  WorkspaceOn=False
+[Global]
+[Logging]
+  ConsoleLevel=STATUS
+  LogLevel=TRACE
+[Master Archive]
+  BackupOneEnabled=False
+  BackupTwoEnabled=False
+[System Folders]
+  HistoryPath=C:\ProgramData\IDK-Software\ImgArchive/history
+  MasterPath=C:\ProgramData\IDK-Software\ImgArchive\master
