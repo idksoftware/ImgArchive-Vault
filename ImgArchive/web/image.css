@@ -1,0 +1,57 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+	background: black;
+}
+/* Center website */
+.main {
+  max-width: 1900px;
+  margin: auto;
+}
+.mainimage {
+	border: 10px;
+/*padding: 100px;*/
+	border-color: green;
+}
+.metadata {
+	background: gray;
+	padding: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.metadata {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  
+  display: grid;
+  grid-template-columns: auto auto
+  
+}
+
+.metadata h1 {
+	font-size: 16px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #059862;
+}
